@@ -1,0 +1,326 @@
+  [
+  {
+    "question": "Was ist ein Broadcast im Ethernet?",
+    "type": "mc",
+    "options": [
+      "A) Eine gezielte, hochgradig verschlüsselte Nachricht, die exklusiv an einen einzigen, vorher definierten Computer gesendet wird.",
+      "B) Eine administrative Statusmeldung, die ausschließlich von Routern zur Aktualisierung ihrer internen Routing-Tabellen genutzt wird.",
+      "C) Ein Broadcast ist eine Nachricht, die an alle Geräte im selben Netzwerk gleichzeitig gesendet wird. Das Paket wird an eine spezielle Adresse geschickt, die „alle empfangen“ bedeutet.",
+      "D) Eine temporäre Direktverbindung zwischen zwei entfernten Servern, um große Datenmengen ohne Paketverluste zu spiegeln."
+    ],
+    "answer": "C",
+    "explanation": "Ein Broadcast ist eine Nachricht, die an alle Geräte im selben Netzwerk gleichzeitig gesendet wird. Statt an eine bestimmte Adresse wird das Datenpaket an eine spezielle Adresse geschickt, die bedeutet: „Alle sollen das empfangen“."
+  },
+  {
+    "question": "Welche Bedeutung hat ein Switch im Zusammenspiel von Ports, IP-Adressen und Ethernet-Frames?",
+    "type": "mc",
+    "options": [
+      "A) Er löscht die IP-Adressen aus dem Datenpaket und ersetzt sie durch temporäre Portnummern, um die Übertragung im Internet zu beschleunigen.",
+      "B) Ein Switch verbindet Geräte über Ports und sorgt dafür, dass Ethernet-Frames anhand der MAC-Adressen nur an den richtigen Empfänger geleitet werden. Die IP-Adresse ignoriert er meist.",
+      "C) Er analysiert ausschließlich die Ports des TCP-Headers und blockiert alle Ethernet-Frames, die keine gültige IP-Adresse enthalten.",
+      "D) Er dient als zentrale Hardware-Verschlüsselungsinstanz, die alle eingehenden Datenpakete liest und für den Transport im WLAN umformatiert."
+    ],
+    "answer": "B",
+    "explanation": "Ein Switch verbindet Geräte über seine Ports miteinander und sorgt dafür, dass Ethernet-Frames nur an den richtigen Empfänger weitergeleitet werden. Dafür nutzt er die MAC-Adressen im Frame. Die IP-Adresse plays für ihn dabei meist keine direkte Rolle, weil er auf einer niedrigeren Ebene arbeitet."
+  },
+  {
+    "question": "Was ist Port Mirroring?",
+    "type": "mc",
+    "options": [
+      "A) Eine hochentwickelte Verschlüsselungsmethode, bei der die Ports bei jedem gesendeten Datenpaket nach einem Zufallsprinzip rotieren.",
+      "B) Port Mirroring ist eine Funktion bei Switches, bei der der Datenverkehr von einem oder mehreren Ports auf einen anderen Port kopiert wird.",
+      "C) Ein spezielles Netzwerkprotokoll, das ungenutzte IP-Adressen im lokalen Netzwerk aufspürt und für neue Geräte freigibt.",
+      "D) Ein physikalischer Y-Kabeltyp, mit dem man die Bandbreite von zwei Glasfaserverbindungen mechanisch zusammenschalten kann."
+    ],
+    "answer": "B",
+    "explanation": "Port Mirroring ist eine Funktion bei bestimmten Switches, bei der der Datenverkehr von einem oder mehreren Ports auf einen anderen Port kopiert wird."
+  },
+  {
+    "question": "Wie funktioniert Port Mirroring?",
+    "type": "mc",
+    "options": [
+      "A) Es blockiert sämtliche Datenpakete auf den Ziel-Ports, um das Netzwerk vor potenziellen Cyberangriffen aus dem Internet zu schützen.",
+      "B) Es verteilt den eingehenden Datenverkehr nach dem Zufallsprinzip auf alle freien Anschlüsse, um eine Überlastung zu verhindern.",
+      "C) Es ersetzt alle physischen Kupferkabel im Netzwerk durch rein virtuelle Verbindungen innerhalb einer gesicherten Cloud-Umgebung.",
+      "D) Beim Port Mirroring wird eingestellt, dass alle Daten, die über einen bestimmten Port laufen, zusätzlich an einen anderen Port gesendet werden. Dort kann man den Verkehr dann mitlesen."
+    ],
+    "answer": "D",
+    "explanation": "Beim Port Mirroring wird eingestellt, dass alle Daten, die über einen bestimmten Port laufen, zusätzlich an einen anderen Port gesendet werden. Dort kann man dann den gesamten Netzwerkverkehr mitlesen."
+  },
+  {
+    "question": "Wozu benutzt man Port Mirroring?",
+    "type": "mc",
+    "options": [
+      "A) Port Mirroring wird verwendet, um den Datenverkehr in einem Netzwerk zu überwachen oder Fehler zu suchen. Es hilft dabei, genau zu sehen, welche Daten übertragen werden.",
+      "B) Zur signifikanten Beschleunigung des weltweiten Internetzugangs durch das gezielte Umgehen von überlasteten Provider-Routern.",
+      "C) Zur vollautomatischen Reparatur von defekten Datenleitungen, indem fehlerhafte Frames hardwareseitig umgeleitet werden.",
+      "D) Zur dynamischen Generierung und Verteilung von neuen IPv4- und IPv6-Adressen an mobile Endgeräte im Gast-WLAN."
+    ],
+    "answer": "A",
+    "explanation": "Port Mirroring wird verwendet, um den Datenverkehr in einem Netzwerk zu überwachen oder Fehler zu suchen. Es hilft dabei, genau zu sehen, welche Daten übertragen werden."
+  },
+  {
+    "question": "Was hat Port Mirroring mit einem Sniffer zu tun?",
+    "type": "mc",
+    "options": [
+      "A) Port Mirroring ersetzt Software-Sniffer im Netzwerk vollständig, da der Switch die Protokollanalyse nun komplett selbstständig übernimmt.",
+      "B) Port Mirroring wird oft zusammen mit einem Sniffer (z. B. Wireshark) verwendet. Der Sniffer läuft auf einem PC am gespiegelten Port und kann so den kopierten Datenverkehr analysieren.",
+      "C) Es blockiert die Ausführung von Sniffer-Programmen im lokalen Netz, um das heimliche Abhören von Passwörtern effektiv zu unterbinden.",
+      "D) Es verschlüsselt die Datenpakete auf dem Quell-Port so stark, dass ein angeschlossener Sniffer nur noch unlesbaren Code anzeigen kann."
+    ],
+    "answer": "B",
+    "explanation": "Port Mirroring wird oft zusammen mit einem Sniffer verwendet, zum Beispiel mit Wireshark. Der Sniffer läuft auf einem Computer, der an dem gespiegelten Port angeschlossen ist, und kann so den gesamten Datenverkehr analysieren."
+  },
+  {
+    "question": "Wofür steht PoE?",
+    "type": "mc",
+    "options": [
+      "A) Packet over Ethernet. Ein Übertragungsverfahren, das IP-Pakete für die Langstrecke in kleinere Fragmente zerlegt.",
+      "B) Protocol over Ethernet. Ein Sicherheitsstandard zur Validierung von administrativen Zugriffen auf managed Switches.",
+      "C) Priority over Ethernet. Ein Algorithmus, der zeitkritische VoIP-Telefonate vor dem normalen Web-Traffic bevorzugt.",
+      "D) PoE steht für „Power over Ethernet“. Es beschreibt die Stromversorgung von Netzwerkgeräten direkt über das Datenkabel."
+    ],
+    "answer": "D",
+    "explanation": "PoE steht für „Power over Ethernet“."
+  },
+  {
+    "question": "Was ist ein PoE-Adapter?",
+    "type": "mc",
+    "options": [
+      "A) Ein PoE-Adapter ist ein Gerät, das Strom über ein Netzwerkkabel liefert. Damit können Geräte wie Kameras oder Access-Points ohne eigenes Stromkabel betrieben werden.",
+      "B) Ein spezielles Hardware-Modul zur drastischen Erhöhung der WLAN-Reichweite in stark abgeschirmten Betonbauten.",
+      "C) Ein zwischengeschalteter Stecker, der für die lückenlose Verschlüsselung aller passierenden Ethernet-Frames sorgt.",
+      "D) Ein DHCP-Ersatzgerät, das in großen Firmennetzwerken für die fehlerfreie Zuweisung von IP-Adressen verantwortlich ist."
+    ],
+    "answer": "A",
+    "explanation": "Ein PoE-Adapter ist ein Gerät, das Strom über ein Netzwerkkabel liefert. Damit können Geräte wie Überwachungskameras oder WLAN-Access-Points mit Strom versorgt werden, ohne dass sie ein eigenes Stromkabel benötigen."
+  },
+  {
+    "question": "Wofür benutzt man einen PoE-Adapter?",
+    "type": "mc",
+    "options": [
+      "A) Um Funksignale von mobilen Endgeräten im lokalen Netzwerk einzufangen und in optische Signale für Glasfaserleitungen umzuwandeln.",
+      "B) Einen PoE-Adapter benutzt man, um ein Gerät über das Netzwerkkabel gleichzeitig mit Daten und Strom zu versorgen, sodass kein extra Netzteil nötig ist.",
+      "C) Um sensible Datenströme vor dem Verlassen des lokalen Routers nach militärischen Standards unknackbar zu verschlüsseln.",
+      "D) Um IP-Adressbereiche im Netzwerk sauber voneinander zu trennen und unbefugten Geräten den Internetzugriff zu verwehren."
+    ],
+    "answer": "B",
+    "explanation": "Einen PoE-Adapter benutzt man, um ein Gerät über das Netzwerkkabel gleichzeitig mit Daten und Strom zu versorgen. Das ist praktisch bei Geräten wie Überwachungskameras oder WLAN-Access-Points, weil man kein zusätzliches Stromkabel verlegen muss."
+  },
+  {
+    "question": "Wo im Datenpaket wird das VLAN-Tag eingefügt?",
+    "type": "mc",
+    "options": [
+      "A) Direkt im IP-Header unmittelbar vor der logischen Zieladresse, um das Paket bereits auf Layer 3 dem richtigen Subnetz zuzuordnen.",
+      "B) Im hinteren Nutzdatenbereich (Payload) direkt am Ende des Frames, um die bestehenden Protokoll-Header nicht zu verändern.",
+      "C) Im TCP-Header direkt nach der mathematischen Prüfsumme, um die Integrität der Port-Zuweisung zu gewährleisten.",
+      "D) Das VLAN-Tag wird in einem Ethernet-Frame eingefügt. Es befindet sich zwischen den MAC-Adressen und dem eigentlichen Nutzdatenbereich."
+    ],
+    "answer": "D",
+    "explanation": "Das VLAN-Tag wird in einem Ethernet-Frame eingefügt. Es befindet sich zwischen den MAC-Adressen und dem eigentlichen Nutzdatenbereich. Dadurch kann das Netzwerk erkennen, zu welchem VLAN das Datenpaket gehört."
+  },
+  {
+    "question": "Wann wird ein Datenpaket untagged?",
+    "type": "mc",
+    "options": [
+      "A) Ein Datenpaket wird untagged, wenn es ein Gerät erreicht, das keine VLAN-Tags versteht (z. B. ein PC). Auch an Access-Ports des Switches werden die Tags entfernt.",
+      "B) Grundsätzlich immer dann, wenn das Paket von einem normalen Computer abgeschickt wird und das lokale Heimnetzwerk verlässt.",
+      "C) Ausschließlich bei Verbindungen, die über ein verschlüsseltes HTTPS-Protokoll im Browser aufgerufen werden.",
+      "D) Nur bei Broadcast-Nachrichten, um sicherzustellen, dass ausnahmslos alle Geräte im physischen Netzwerk die Nachricht lesen können."
+    ],
+    "answer": "A",
+    "explanation": "Ein Datenpaket wird untagged, wenn es ein Gerät erreicht, das keine VLAN-Tags verarbeitet, zum Beispiel ein normaler Computer. Auch an sogenannten Access-Ports eines Switches werden die Tags entfernt, bevor die Daten weitergegeben werden."
+  },
+  {
+    "question": "Wofür werden Datenpakete getagged?",
+    "type": "mc",
+    "options": [
+      "A) Um Datenpakete auf Layer 2 effizient zu komprimieren und die Auslastung der physischen Leitungen bei großen Dateiübertragungen zu minimieren.",
+      "B) Um die Übertragungsgeschwindigkeit innerhalb von drahtlosen Netzwerken durch eine hardwareseitige Paket-Priorisierung zu erhöhen.",
+      "C) Datenpakete werden getagged, damit man sie verschiedenen VLANs zuordnen kann. So kann man ein großes Netzwerk in mehrere kleinere, getrennte Bereiche aufteilen, obwohl alle Geräte über die gleiche Hardware verbunden sind.",
+      "D) Um die logischen IP-Adressen im Header temporär durch kürzere Routing-Labels zu ersetzen und so die Router im Internet-Backbone zu entlasten."
+    ],
+    "answer": "C",
+    "explanation": "Datenpakete werden getagged, damit man sie verschiedenen VLANs zuordnen kann. So kann man ein großes Netzwerk in mehrere kleinere, getrennte Bereiche aufteilen, obwohl alle Geräte über die gleiche Hardware verbunden sind."
+  },
+  {
+    "question": "Was ist ein passiver PoE-Adapter?",
+    "type": "mc",
+    "options": [
+      "A) Ein spezielles Hardware-Modul, das ausschließlich zur kabellosen Weiterleitung und Verstärkung von verschlüsselten WLAN-Signalen dient.",
+      "B) Ein passiver PoE-Adapter ist ein einfaches Gerät, das Strom über das Netzwerkkabel überträgt, ohne dabei mit dem angeschlossenen Gerät zu „verhandeln“. Das bedeutet, der Strom wird einfach immer auf die Leitung gelegt.",
+      "C) Ein intelligentes Netzwerkgerät mit integrierter, automatischer Spannungserkennung, das sich flexibel an die Anforderungen des Endgeräts anpasst.",
+      "D) Eine externe Sicherheitskomponente, die für die lückenlose Hardware-Verschlüsselung des gesamten Datenverkehrs im lokalen Netzwerk sorgt."
+    ],
+    "answer": "B",
+    "explanation": "Ein passiver PoE-Adapter ist ein einfaches Gerät, das Strom über das Netzwerkkabel überträgt, ohne dabei mit dem angeschlossenen Gerät zu „verhandeln“. Das bedeutet, der Strom wird einfach immer auf die Leitung gelegt."
+  },
+  {
+    "question": "Welchen Effekt hat ein passiver PoE-Adapter auf die Datenübertragungsrate?",
+    "type": "mc",
+    "options": [
+      "A) Er erhöht die physikalische Übertragungsgeschwindigkeit automatisch durch eine Bündelung der ungenutzten Frequenzbereiche im Kupferkabel.",
+      "B) Er hat grundsätzlich keinerlei Einfluss auf die maximale Datenrate, da Strom und Daten auf völlig unterschiedlichen Frequenzen isoliert transportiert werden.",
+      "C) Er ersetzt die integrierte Netzwerkkarte im Endgerät vollständig und übernimmt die gesamte Protokollverarbeitung auf Hardware-Ebene.",
+      "D) Ein passiver PoE-Adapter kann die Datenübertragungsrate einschränken, weil nicht alle Leitungen im Kabel für Daten genutzt werden. Dadurch ist oft nur eine geringere Geschwindigkeit möglich."
+    ],
+    "answer": "D",
+    "explanation": "Ein passiver PoE-Adapter kann die Datenübertragungsrate einschränken, weil nicht alle Leitungen im Kabel für Daten genutzt werden. Dadurch ist oft nur eine geringere Geschwindigkeit möglich (meistens maximal 100 Mbit/s statt 1 Gbit/s)."
+  },
+  {
+    "question": "Wie viele Adern stehen zur Datenübertragung bei einem passiven PoE-Adapter zur Verfügung?",
+    "type": "mc",
+    "options": [
+      "A) Bei einem passiven PoE-Adapter werden meist nur vier Adern (also zwei Adernpaare) für die Datenübertragung verwendet.",
+      "B) Genau zwei Adern (ein einzelnes Adernpaar), die im Halbduplex-Verfahren abwechselnd für das Senden und Empfangen von Datenpaketen genutzt werden.",
+      "C) Alle acht Adern (vier Adernpaare), da moderne passive Systeme die Stromspannung unsichtbar über die bestehenden Datensignale lagern.",
+      "D) Exakt sechs Adern (drei Adernpaare), wobei die verbleibenden zwei Adern ausschließlich als Erdung für die Hochspannungsabschirmung dienen."
+    ],
+    "answer": "A",
+    "explanation": "Bei einem passiven PoE-Adapter werden meist nur vier Adern (also zwei Adernpaare) für die Datenübertragung verwendet. Die anderen vier Adern werden für die Stromversorgung reserviert."
+  },
+    {
+    "question": "Wofür steht IEEE 802.3at?",
+    "type": "mc",
+    "options": [
+      "A) Es handelt sich um einen weltweiten Industrie-Standard für drahtlose Highspeed-WLAN-Verbindungen im stark ausgelasteten 2,4-GHz-Frequenzband.",
+      "B) Es beschreibt ein standardisiertes Verschlüsselungsverfahren, das den unbefugten Zugriff auf Ethernet-Frames auf Schicht 2 unterbindet.",
+      "C) Es definiert das offizielle Protokoll zur automatischen und dynamischen Vergabe von IP-Adressen innerhalb von lokalen Subnetzen.",
+      "D) IEEE 802.3at ist ein Standard für Power over Ethernet, also für die Stromversorgung über Netzwerkkabel. Er wird auch „PoE+“ genannt und legt fest, wie Geräte sicher über ein Ethernet-Kabel mit Strom versorgt werden können und wie viel Leistung dabei übertragen wird."
+    ],
+    "answer": "D",
+    "explanation": "IEEE 802.3at ist ein Standard für Power over Ethernet, also für die Stromversorgung über Netzwerkkabel. Er wird auch „PoE+“ genannt und legt fest, wie Geräte sicher über ein Ethernet-Kabel mit Strom versorgt werden können und wie viel Leistung (bis zu 30 Watt pro Port) dabei übertragen wird."
+  },
+  {
+    "question": "Wie bündelt man mehrere physische Ports?",
+    "type": "mc",
+    "options": [
+      "A) Mehrere physische Ports bündelt man, indem man sie logisch zu einer Verbindung zusammenfasst. Das geschieht mit einer Technik, die Link Aggregation genannt wird. Dabei werden mehrere Kabel gleichzeitig genutzt, als wären sie eine einzige Verbindung.",
+      "B) Indem man die Ports über ein separates WLAN-Modul virtuell zusammenschaltet, um die physikalische Kabelstrecke komplett zu entlasten.",
+      "C) Indem man die betroffenen Ports auf dem Switch physisch entfernt und durch ein einzelnes, speziell angefertigtes Breitband-Kabel ersetzt.",
+      "D) Indem man den beteiligten Netzwerkkarten auf Software-Ebene exakt dieselbe IP-Adresse zuweist, wodurch die Datenströme automatisch verschmelzen."
+    ],
+    "answer": "A",
+    "explanation": "Mehrere physische Ports bündelt man, indem man sie logisch zu einer Verbindung zusammenfasst. Das geschieht mit einer Technik, die Link Aggregation genannt wird. Dabei werden mehrere Kabel gleichzeitig genutzt, als wären sie eine einzige Verbindung."
+  },
+  {
+    "question": "Was ist Link-Aggregation?",
+    "type": "mc",
+    "options": [
+      "A) Ein mathematisches Optimierungsverfahren, das die Sendeleistung von WLAN-Antennen in geschlossenen Räumen dynamisch anpasst.",
+      "B) Ein softwarebasiertes Kompressionsverfahren, welches Datenpakete vor dem Versenden ins Internet komprimiert, um Bandbreite zu sparen.",
+      "C) Link Aggregation ist eine Methode, bei der mehrere Netzwerkverbindungen zu einer einzigen, schnelleren und stabileren Verbindung kombiniert werden. So können mehr Daten gleichzeitig übertragen werden.",
+      "D) Ein administratives Vergabeverfahren, das für die vollautomatische Zuweisung von IP-Adressen an neue Netzwerkgeräte zuständig ist."
+    ],
+    "answer": "C",
+    "explanation": "Link Aggregation ist eine Methode, bei der mehrere Netzwerkverbindungen zu einer einzigen, schnelleren und stabileren Verbindung kombiniert werden. So können mehr Daten gleichzeitig übertragen werden (Erhöhung der Bandbreite)."
+  },
+  {
+    "question": "Warum aggregiert man Links?",
+    "type": "mc",
+    "options": [
+      "A) Um die Anzahl der benötigten Netzwerkkabel im Serverschrank zu reduzieren und dadurch die Materialkosten signifikant zu senken.",
+      "B) Um physische Kupferleitungen durch hocheffiziente WLAN-Funkstrecken zu ersetzen und die Mobilität der Geräte zu verbessern.",
+      "C) Man aggregiert Links, um die Datenübertragungsrate zu erhöhen und die Ausfallsicherheit zu verbessern. Wenn ein Kabel ausfällt, können die anderen weiterhin Daten übertragen.",
+      "D) Um die sensiblen IP-Adressen der beteiligten Server vor potenziellen Spionage-Angriffen aus dem Internet abzusichern."
+    ],
+    "answer": "C",
+    "explanation": "Man aggregiert Links, um die Datenübertragungsrate (Bandbreite) zu erhöhen und die Ausfallsicherheit (Redundanz) zu verbessern. Wenn ein Kabel ausfällt oder abgezogen wird, können die anderen Leitungen den Datenverkehr ohne Unterbrechung weiter übertragen."
+  },
+  {
+    "question": "Was ist ein VLAN?",
+    "type": "mc",
+    "options": [
+      "A) Ein physisches, speziell abgeschirmtes Kabelsystem, das zur abhörsicheren Datenübertragung in Regierungsgebäuden verlegt wird.",
+      "B) Ein VLAN ist ein virtuelles lokales Netzwerk. Es teilt ein physisches Netzwerk in mehrere logische Netzwerke auf, sodass Geräte getrennt voneinander arbeiten können, obwohl sie an derselben Hardware angeschlossen sind.",
+      "C) Ein herstellerspezifisches Router-Betriebssystem, das ausschließlich für die Konfiguration von globalen Routing-Tabellen genutzt wird.",
+      "D) Eine Hardware-Komponente zur aktiven Verstärkung von analogen Telefonsignalen über bestehende Ethernet-Infrastrukturen."
+    ],
+    "answer": "B",
+    "explanation": "Ein VLAN ist ein virtuelles lokales Netzwerk. Es teilt ein physisches Netzwerk in mehrere logische Netzwerke auf, sodass Geräte getrennt voneinander arbeiten können, obwohl sie an derselben Hardware (Switches, Kabel) angeschlossen sind."
+  },
+  {
+    "question": "Was ist ein VLAN-Switch?",
+    "type": "mc",
+    "options": [
+      "A) Ein unmanaged Switch, der aufgrund fehlender Stromversorgung ausschließlich über die Signalspannung der Datenleitungen betrieben wird.",
+      "B) Ein reines WLAN-Zentralgerät, das kabellose Funkzellen basierend auf den geografischen Standorten der Benutzer erstellt.",
+      "C) Ein passiver mechanischer Kabelverteiler, der zur physischen Splittung von ankommenden Glasfaserleitungen verwendet wird.",
+      "D) Ein VLAN-Switch ist ein Switch, der VLANs verwalten kann. Er kann Datenpakete verschiedenen virtuellen Netzwerken zuordnen und diese voneinander trennen."
+    ],
+    "answer": "D",
+    "explanation": "Ein VLAN-Switch ist ein Switch (in der Regel ein managed Switch), der VLANs verwalten kann. Er kann Datenpakete anhand ihrer Kennzeichnung verschiedenen virtuellen Netzwerken zuordnen und diese logisch strikt voneinander trennen."
+  },
+  {
+    "question": "Wozu benutzt man einen VLAN-Switch?",
+    "type": "mc",
+    "options": [
+      "A) Einen VLAN-Switch benutzt man, um ein Netzwerk in mehrere Bereiche aufzuteilen. So kann man zum Beispiel verschiedene Abteilungen in einer Schule oder Firma voneinander trennen, obwohl alle dieselben Kabel nutzen.",
+      "B) Zur künstlichen Erhöhung der maximalen Internetgeschwindigkeit durch das parallele Vorschalten von mehreren externen Provider-Modems.",
+      "C) Zur flächendeckenden Erweiterung des lokalen WLAN-Funksignals auf große Außenbereiche ohne den Einsatz von zusätzlichen Repeatern.",
+      "D) Zur automatischen Hardware-Verschlüsselung aller passierenden Datenpakete, bevor diese in das öffentliche Internet weitergeleitet werden."
+    ],
+    "answer": "A",
+    "explanation": "Einen VLAN-Switch benutzt man, um ein physikalisches Netzwerk logisch in mehrere isolierte Bereiche aufzuteilen. So kann man zum Beispiel die Verwaltung, Lehrer und Schüler in einer Schule voneinander trennen, obwohl alle dieselbe physische Kabelinfrastruktur nutzen."
+  },
+  {
+    "question": "Wozu teilt man physische Netze in mehrere logische Netze auf?",
+    "type": "mc",
+    "options": [
+      "A) Um die Gesamtlänge der verlegten Kupferkabel zu reduzieren und mechanische Spannungen in den Kabelkanälen zu vermeiden.",
+      "B) Man teilt physische Netze in mehrere logische Netze auf, um die Übersicht zu verbessern, die Sicherheit zu erhöhen und den Datenverkehr zu kontrollieren. Geräte aus unterschiedlichen VLANs können nicht einfach direkt miteinander kommunizieren.",
+      "C) Um die Wellenlänge des lokalen WLAN-Signals zu optimieren und die dicken Betonwände in Bürogebäuden besser zu durchdringen.",
+      "D) Um die internen Prozessoren der angeschlossenen Router zu entlasten, indem das Routing komplett auf die Endgeräte verlagert wird."
+    ],
+    "answer": "B",
+    "explanation": "Man teilt physische Netze in mehrere logische Netze auf, um die Übersicht zu verbessern, die IT-Sicherheit zu erhöhen und den Datenverkehr zu kontrollieren. Geräte, die sich in unterschiedlichen VLANs befinden, können ohne einen Router oder Layer-3-Switch nicht direkt miteinander kommunizieren."
+  },
+  {
+    "question": "Wie viel Byte hat ein Bit?",
+    "type": "mc",
+    "options": [
+      "A) Ein standardisiertes Bit entspricht exakt 1 Byte, da beide Einheiten in der modernen Netzwerktechnik synonym verwendet werden.",
+      "B) Ein Bit ist die kleinste Einheit und entspricht genau einem einzelnen Wert, entweder 0 oder 1. Ein Bit ist kleiner als ein Byte. Ein Byte besteht aus 8 Bit.",
+      "C) Ein einzelnes Bit hat standardmäßig 4 Byte, um genaue Fließkommazahlen im Speicher abbilden zu können.",
+      "D) Ein Bit besteht aus exakt 2 Byte, welche für die Adressierung von Absender und Empfänger im lokalen Netz benötigt werden."
+    ],
+    "answer": "B",
+    "explanation": "Ein Bit ist die kleinste digitale Informationseinheit und kennt nur zwei Zustände: 0 oder 1. Ein Byte hingegen ist eine größere Einheit, die aus genau 8 einzelnen Bits besteht."
+  },
+  {
+    "question": "Wie viel Bit hat ein VLAN-Tag?",
+    "type": "mc",
+    "options": [
+      "A) Ein VLAN-Tag hat 12 Bit für die VLAN-ID. Damit können theoretisch 4096 verschiedene VLANs unterschieden werden.",
+      "B) Genau 8 Bit (entspricht 1 Byte), was die maximale Anzahl der konfigurierbaren virtuellen Netzwerke auf exakt 256 IDs beschränkt.",
+      "C) Exakt 16 Bit, wobei die ersten 8 Bit für die Priorisierung und die restlichen 8 Bit für die Adressierung des Ziel-Switches reserviert sind.",
+      "D) Standardmäßig 24 Bit, um komplexe globale Netzwerkstrukturen und Subnetze weltweit eindeutig codieren zu können."
+    ],
+    "answer": "A",
+    "explanation": "Das VLAN-Tag nach dem Standard IEEE 802.1Q hält genau 12 Bit für die eigentliche VLAN-ID bereit. Mit diesen 12 Bit ($2^{12}$) lassen sich theoretisch bis zu 4096 eindeutige virtuelle Netzwerke (VLANs) definieren."
+  },
+  {
+    "question": "Was ist ein VLAN-Tag?",
+    "type": "mc",
+    "options": [
+      "A) Eine feste, öffentliche IP-Adresse, die einem Netzwerkgerät vom Provider für die weltweite Kommunikation zugewiesen wird.",
+      "B) Ein spezieller, mechanischer Stecker-Typ, der für besonders schnelle und störungsfreie Gigabit-Verbindungen benötigt wird.",
+      "C) Ein VLAN-Tag ist eine zusätzliche Information in einem Ethernet-Frame, die angibt, zu welchem VLAN ein Datenpaket gehört.",
+      "D) Ein softwarebasiertes Diagnoseprogramm, das zur permanenten Überwachung des Datenverkehrs auf der Firewall dient."
+    ],
+    "answer": "C",
+    "explanation": "Ein VLAN-Tag ist ein zusätzliches, 4 Byte großes Datenfeld, das in einen normalen Ethernet-Frame eingefügt wird. Es beinhaltet unter anderem die VLAN-ID und signalisiert den Switches, zu welchem virtuellen Netzwerk das Paket gehört."
+  },
+  {
+    "question": "Wie funktioniert die Kennzeichnung in VLANs?",
+    "type": "mc",
+    "options": [
+      "A) Die Kennzeichnung basiert auf den physikalischen MAC-Adressen der Endgeräte, welche beim Passieren des Switches permanent modifiziert werden.",
+      "B) Die Kennzeichnung erfolgt rein textbasiert über die Vergabe von eindeutigen DNS-Namen für jedes einzelne Kabel im Netzwerk.",
+      "C) Die Kennzeichnung wird durch eine statische und unveränderliche IP-Adressvergabe direkt im Betriebssystem des Haupt-Routers realisiert.",
+      "D) Die Kennzeichnung funktioniert, indem jedem Datenpaket ein VLAN-Tag hinzugefügt wird. Dieses enthält eine VLAN-ID. Switches lesen diese ID und wissen dadurch, zu welchem virtuellen Netzwerk das Paket gehört und wohin es weitergeleitet werden soll."
+    ],
+    "answer": "D",
+    "explanation": "Die Kennzeichnung funktioniert, indem jedem Datenpaket beim Verlassen eines VLAN-Bereichs ein VLAN-Tag hinzugefügt wird. Dieses enthält die VLAN-ID. Die beteiligten Switches lesen diese ID aus und wissen dadurch sofort, zu welchem virtuellen Netzwerk das Paket gehört und an welche Ports es weitergeleitet werden darf."
+  }
+]
